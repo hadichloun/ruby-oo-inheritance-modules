@@ -1,4 +1,4 @@
-# Introduction to Modules
+<!-- # Introduction to Modules
 
 ## Objectives
 
@@ -14,11 +14,11 @@ This is where modules come in. Modules allow us to collect and bundle a group of
 
 ## Code Along I: Including Module Methods as Instance Methods
 
-***This is a code along exercise. Fork and clone this repo by clicking the Github link at the top of the page. Follow along with the walk-through below to get your code working. Get the tests to pass.***
+***This is a code along exercise. Fork and clone this repo by clicking the Github link at the top of the page. Follow along with the walk-through below to get your code working. Get the tests to pass.*** -->
 
 ### Step I: Defining Our Module
 
-We'll code our `Dance` module inside the `lib/dance_module.rb` file. Open up that file and define your module with the following code:
+<!-- We'll code our `Dance` module inside the `lib/dance_module.rb` file. Open up that file and define your module with the following code:
 
 ```ruby
 module Dance
@@ -45,9 +45,9 @@ module Dance
     "Thank you, thank you. It was a pleasure to dance for you all."
   end
 end
-```
+``` -->
 
-Okay, now we'll define our `Kid` class and tell it to *include* the capabilities of the `Dance` module.
+<!-- Okay, now we'll define our `Kid` class and tell it to *include* the capabilities of the `Dance` module.
 
 ### Step 2: Defining the Classes
 
@@ -117,8 +117,8 @@ Now, run the file by typing `ruby bin/dance_party` and you should see the follow
 ```bash
 Angelina says: I'm twirling!
 Mikhail says: Thank you, thank you. It was a pleasure to dance for you all.
-```
-
+``` -->
+<!-- 
 ## Code Along II: Extending Module Methods as Class Methods
 
 In order to lend a module's methods to a class as *class methods*, we use the `extend` keyword. Let's write yet another module that we can extend into our classes as class methods. For the purposes of this example, let's create a shareable class method, `metadata`, which will report on some pertinent (shared) information regarding both classes.
@@ -146,9 +146,9 @@ end
 class Kid
   extend MetaDancing
 end
-```
+``` -->
 
-Now, open up the bin/extending file and familiarize yourself with the following code:
+<!-- Now, open up the bin/extending file and familiarize yourself with the following code:
 
 ```ruby
 require_relative "../lib/kid.rb"
@@ -163,7 +163,7 @@ Run the file with `ruby bin/extending` and you should see the following output i
 ```bash
 This class produces objects that love to dance.
 This class produces objects that love to dance.
-```
+``` -->
 
 Run the tests to make sure some of your tests are passing.
 
